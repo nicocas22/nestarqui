@@ -1,5 +1,5 @@
 import { AgenciaResponse } from "../../domain/models/agency/agencyResponse";
-import { AgencyRepository } from "../../domain/repositories/agencyRepository.interface";
+import { AgencyRepository } from "../../domain/ports/agencyRepository.interface";
 import { IException } from '../../domain/exceptions/exception.interface';
 
 

@@ -1,5 +1,5 @@
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
-import { AgencyRepository } from 'src/domain/repositories/agencyRepository.interface';
+import { AgencyRepository } from 'src/domain/ports/agencyRepository.interface';
 import { AgenciaResponse } from "../../../domain/models/agency/agencyResponse";
 
 
