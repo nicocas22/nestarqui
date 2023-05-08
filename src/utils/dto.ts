@@ -1,0 +1,62 @@
+export interface EmisionDto {
+  emision_id: 2270;
+  cuenta_corriente: null;
+  codigo_agencia_origen: string;
+  codigo_agencia_destino: string;
+  destinatario_rut: string;
+  destinatario_nombres: string;
+  destinatario_paterno: string;
+  destinatario_materno: string;
+  destinatario_razon_social: string;
+  destinatario_direccion: string;
+  destinatario_numeracion: string;
+  destinatario_departamento: null;
+  destinatario_codigo_comuna: null;
+  destinatario_telefono: string;
+  destinatario_email: string;
+  destinatario_contacto: string;
+  contenido: string;
+  kilos_total: number;
+  valor_declarado: number;
+  orden_flete: number;
+  impresiones: number;
+  user_id: number;
+  status: string;
+  created_at: Date;
+  updated_at: Date;
+  tipo_entrega_id: number;
+  tipo_pago_id: number;
+  tipo_servicio_id: number;
+  master_id: number;
+  estado: string;
+  etiqueta: string;
+  centro_costo: number;
+  valor: number;
+  retry: number;
+  queue_id: string;
+  observacion: number;
+  direccion_normalizada: string;
+  latitud: number;
+  longitud: number;
+  retiro_asociado: boolean;
+}
+
+export interface UserDto {
+  user_id: number;
+  name: string;
+  last_name: string;
+  run: string;
+  email: string;
+  password: string;
+  phone: string;
+  mobile: string;
+  photo_profile: string;
+  status: string;
+  last_login: Date;
+  created_at: Date;
+  updated_at: Date;
+  category: string;
+  agency_id: number;
+  comuna_id: number;
+  address: string;
+}
